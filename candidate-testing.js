@@ -3,7 +3,8 @@ const input = require('readline-sync');
 // TODO 2: modify your quiz app to ask 5 questions //
 
 // TODO 1.1a: Define candidateName // 
-let candidateName;
+let candidateName = input.question("Hello! What is your name, please?  ");
+
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question;
 let correctAnswer;
@@ -13,12 +14,13 @@ let correctAnswers;
 let candidateAnswers;
 
 
-function askForName() {
+function askForName(){
+  let message ='Welcome, ("candidateName")' 
   // TODO 1.1b: Ask for candidate's name //
-
 }
 
 function askQuestion() {
+  message = "hi (Candidate name" 
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 
 
